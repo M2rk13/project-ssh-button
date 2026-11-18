@@ -1,0 +1,43 @@
+# Android and Gradle build outputs
+.gradle/
+build/
+**/build/
+*.apk
+*.aab
+*.ap_
+.externalNativeBuild/
+.cxx/
+captures/
+local.properties
+
+# Signing material and local secrets
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+secrets.properties
+
+# IDE and operating-system files
+.idea/
+*.iml
+.DS_Store
+
+# Coordinator runtime and its local integration
+.agents/
+.claude/
+.codex/
+.githooks/
+agents/
+AGENTS.md
+CLAUDE.md
+Makefile
+.gitattributes
+
+# Coordinator runtime data
+var/private/
+var/agent-runs/
+var/agents-efficiency/
+.worktrees/
+__pycache__/
+*.pyc
